@@ -37,6 +37,7 @@ namespace Control_Original
         private void button2_Click(object sender, EventArgs e)
         {
             //Boton salir
+            Application.Exit();
         }
     }
 }
