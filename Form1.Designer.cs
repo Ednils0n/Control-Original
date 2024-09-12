@@ -35,6 +35,11 @@ namespace Control_Original
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.txtLadoA = new System.Windows.Forms.TextBox();
+            this.txtLadoB = new System.Windows.Forms.TextBox();
+            this.txtLadoC = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtTriangulo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -50,7 +55,7 @@ namespace Control_Original
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 77);
+            this.label1.Location = new System.Drawing.Point(77, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 1;
@@ -59,7 +64,7 @@ namespace Control_Original
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(77, 125);
+            this.label2.Location = new System.Drawing.Point(77, 122);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 2;
@@ -94,11 +99,54 @@ namespace Control_Original
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // txtLadoA
+            // 
+            this.txtLadoA.Location = new System.Drawing.Point(124, 70);
+            this.txtLadoA.Name = "txtLadoA";
+            this.txtLadoA.Size = new System.Drawing.Size(119, 20);
+            this.txtLadoA.TabIndex = 6;
+            // 
+            // txtLadoB
+            // 
+            this.txtLadoB.Location = new System.Drawing.Point(124, 119);
+            this.txtLadoB.Name = "txtLadoB";
+            this.txtLadoB.Size = new System.Drawing.Size(119, 20);
+            this.txtLadoB.TabIndex = 7;
+            // 
+            // txtLadoC
+            // 
+            this.txtLadoC.Location = new System.Drawing.Point(124, 170);
+            this.txtLadoC.Name = "txtLadoC";
+            this.txtLadoC.Size = new System.Drawing.Size(116, 20);
+            this.txtLadoC.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(307, 119);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Triangulo";
+            // 
+            // txtTriangulo
+            // 
+            this.txtTriangulo.Enabled = false;
+            this.txtTriangulo.Location = new System.Drawing.Point(374, 116);
+            this.txtTriangulo.Name = "txtTriangulo";
+            this.txtTriangulo.Size = new System.Drawing.Size(128, 20);
+            this.txtTriangulo.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtTriangulo);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtLadoC);
+            this.Controls.Add(this.txtLadoB);
+            this.Controls.Add(this.txtLadoA);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -120,6 +168,11 @@ namespace Control_Original
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtLadoA;
+        private System.Windows.Forms.TextBox txtLadoB;
+        private System.Windows.Forms.TextBox txtLadoC;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTriangulo;
     }
 }
 
