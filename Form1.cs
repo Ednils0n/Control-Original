@@ -19,17 +19,24 @@ namespace Control_Original
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-
+            txtTriangulo.Text = "";
+            int lado1 = int.Parse(txtLadoA.Text);
+            int lado2 = int.Parse(txtLadoB.Text);
+            int lado3 = int.Parse(txtLadoC.Text);
+            if (lado1 == lado2 && lado1 == lado3)
+            {
+                txtTriangulo.Text = "Equilatero";
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //Boton Limpiar
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            //Boton salir
         }
     }
 }
