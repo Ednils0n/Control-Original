@@ -16,5 +16,10 @@ namespace Control_Original
         {
             InitializeComponent();
         }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
